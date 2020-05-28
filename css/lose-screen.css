@@ -1,0 +1,24 @@
+#lose-screen {
+    position: absolute;
+
+    top: 0px;
+
+    opacity: 0;
+    visibility: hidden;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    transition: 3s;
+}
+#lose-text {
+    color: #CDD4C8;
+
+    font-size: 200px;
+}

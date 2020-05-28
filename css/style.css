@@ -1,0 +1,32 @@
+/* Sets the background to grey */
+body{
+    background-color:#034732;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+}
+
+/* Sets the font to Raleway */
+button, div, p, h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+.restart-button {
+    background-color:#56876D;
+    border: none;
+    color: #2B2D42;
+    padding: 45px 192px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    outline: none;
+    font-size: 50;
+}
+
+.restart-button:hover{
+    animation: breathing 7s ease-out infinite;
+}

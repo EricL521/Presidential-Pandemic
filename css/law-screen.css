@@ -1,0 +1,66 @@
+#law-screen{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    position: absolute;
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+    
+    transition: 3s;
+}
+
+#law-title{
+    color: #CDD4C8;
+    font-size: 75px;
+
+    transition: 1.5s;
+}
+
+#law-content{
+    color: #CDD4C8;
+    font-size: 32px;
+    
+    transition: 1.5s;
+}
+
+#button-holder{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    width: 100%;
+}
+
+#yes{
+    background-color:#70AE6E;
+    border: none;
+    color: #2B2D42;
+    padding: 45px 96px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    outline: none;
+}
+
+#no{
+    background-color:#EE6352;
+    border: none;
+    color: #2B2D42;
+    padding: 45px 96px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    outline: none;
+}
+
+#yes:hover, #no:hover{
+    animation: breathing 7s ease-out infinite;
+}

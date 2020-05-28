@@ -1,0 +1,23 @@
+#stats {
+    position: absolute;
+
+    left: 0px;
+    bottom: 0px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-end;
+
+    opacity: 0;
+    visibility: hidden;
+    
+    transition: 3s;
+}
+
+.stat {
+    font-size: 32px;
+    color: #CDD4C8;
+
+    margin: 0 0 15 10;
+}
